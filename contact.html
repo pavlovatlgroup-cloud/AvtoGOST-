@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Contact Us | Freight Transportation Services Russia | Get Quote</title>
+    <meta name="description" content="Contact our logistics specialists for freight transportation across Russia. Get quotes for FTL and LTL shipping. Professional cargo transportation solutions.">
+    <meta name="keywords" content="contact freight transportation Russia, cargo shipping quote, logistics consultation, FTL LTL contact">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Contact Us - Russian Freight Transportation Services">
+    <meta property="og:description" content="Contact our logistics specialists for freight transportation across Russia. Get quotes for FTL and LTL shipping.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourwebsite.com/contact.html">
+    <meta property="og:image" content="images/contact-form-illustration.jpg">
+    
+    <!-- Additional SEO Tags -->
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://yourwebsite.com/contact.html">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="Russian Logistics Services" class="logo">
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="ftl-services.html" class="nav-link">FTL Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="ltl-services.html" class="nav-link">LTL Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="faq.html" class="nav-link">FAQ</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Our Logistics Specialists</h1>
+            <p>Get professional freight transportation solutions across Russia. We're here to help with your FTL and LTL shipping needs.</p>
+        </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section class="contact-info-section">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-info-grid">
+                <div class="contact-info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Operating Hours</h3>
+                    <p>Monday - Friday: 9:00 AM - 6:00 PM (Moscow Time)<br>
+                       Saturday: 10:00 AM - 4:00 PM<br>
+                       Sunday: Emergency services only</p>
+                </div>
+                
+                <div class="contact-info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-reply"></i>
+                    </div>
+                    <h3>Response Time</h3>
+                    <p>We respond to all inquiries within 2 hours during business hours.<br>
+                       Emergency transportation requests handled 24/7.</p>
+                </div>
+                
+                <div class="contact-info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Service Coverage</h3>
+                    <p>Nationwide freight transportation across the Russian Federation.<br>
+                       Specialized routes to remote locations available.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-form-container">
+                <div class="form-content">
+                    <h2>Request Information or Quote</h2>
+                    <p>Fill out the form below and we'll get back to you with a customized freight transportation solution.</p>
+                    
+                    <form id="contact-form" class="contact-form" onsubmit="return validateForm()" method="POST" action="/submit-contact">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required class="form-control" placeholder="Enter your full name">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="company">Company Name</label>
+                                <input type="text" id="company" name="company" class="form-control" placeholder="Your company name">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-control" placeholder="+7 (XXX) XXX-XX-XX">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="your.email@example.com">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="service-type">Service Type</label>
+                                <select id="service-type" name="service_type" class="form-control">
+                                    <option value="">Select service type</option>
+                                    <option value="ftl">Full Truckload (FTL)</option>
+                                    <option value="ltl">Less Than Truckload (LTL)</option>
+                                    <option value="both">Both FTL and LTL</option>
+                                    <option value="consultation">General Consultation</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="cargo-type">Cargo Type</label>
+                                <select id="cargo-type" name="cargo_type" class="form-control">
+                                    <option value="">Select cargo type</option>
+                                    <option value="general">General Cargo</option>
+                                    <option value="refrigerated">Refrigerated Goods</option>
+                                    <option value="oversized">Oversized/Heavy Cargo</option>
+                                    <option value="hazardous">Hazardous Materials</option>
+                                    <option value="other">Other (specify in message)</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message / Transportation Requirements *</label>
+                            <textarea id="message" name="message" required class="form-control" rows="6" placeholder="Please describe your freight transportation needs, including:&#10;- Origin and destination cities&#10;- Cargo details (weight, dimensions)&#10;- Preferred pickup/delivery dates&#10;- Any special requirements"></textarea>
+                        </div>
+                        
+                        <div class="form-group privacy-policy-group">
+                            <div class="checkbox-wrapper">
+                                <input type="checkbox" id="privacy-policy" name="privacy_policy" required>
+                                <label for="privacy-policy">
+                                    I agree to the <a href="privacy-policy.html" target="_blank">Privacy Policy</a> and consent to the processing of my personal data for the purpose of providing freight transportation services. *
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-submit">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="form-image">
+                    <picture>
+                        <source srcset="images/contact-form-illustration.webp" type="image/webp">
+                        <img src="images/contact-form-illustration.jpg" alt="Contact form illustration" class="responsive-image" loading="lazy">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Contact Block -->
+    <section class="social-contact-section">
+        <div class="container">
+            <div class="social-contact-block">
+                <h3>Connect With Us Directly</h3>
+                <p>For immediate assistance, reach out through your preferred communication channel</p>
+                <div class="contact-methods">
+                    <a href="https://wa.me/7XXXXXXXXXX" class="contact-method whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        <div class="contact-info">
+                            <span>WhatsApp</span>
+                            <small>+7-XXX-XXX-XXXX</small>
+                            <small class="contact-description">Quick quotes & instant messaging</small>
+                        </div>
+                    </a>
+                    
+                    <a href="https://t.me/your_telegram_handle" class="contact-method telegram" target="_blank">
+                        <i class="fab fa-telegram"></i>
+                        <div class="contact-info">
+                            <span>Telegram</span>
+                            <small>@your_telegram_handle</small>
+                            <small class="contact-description">Fast communication & file sharing</small>
+                        </div>
+                    </a>
+                    
+                    <a href="mailto:info@yourcompany.ru" class="contact-method email">
+                        <i class="fas fa-envelope"></i>
+                        <div class="contact-info">
+                            <span>Email</span>
+                            <small>info@yourcompany.ru</small>
+                            <small class="contact-description">Detailed inquiries & documentation</small>
+                        </div>
+                    </a>
+                    
+                    <a href="tel:+7XXXXXXXXXX" class="contact-method phone">
+                        <i class="fas fa-phone"></i>
+                        <div class="contact-info">
+                            <span>Phone</span>
+                            <small>+7-XXX-XXX-XXXX</small>
+                            <small class="contact-description">Direct consultation & support</small>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Contact Information -->
+    <section class="additional-contact-section">
+        <div class="container">
+            <div class="additional-contact-grid">
+                <div class="contact-card">
+                    <div class="card-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Emergency Support</h3>
+                    <p>For urgent transportation needs and emergency cargo situations, our dedicated support team is available around the clock.</p>
+                    <a href="tel:+7XXXXXXXXXX" class="btn btn-outline">
+                        <i class="fas fa-phone"></i>
+                        Emergency Hotline
+                    </a>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="card-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Instant Quote Request</h3>
+                    <p>Get preliminary pricing for your freight transportation needs. Provide basic cargo details for a quick estimate.</p>
+                    <a href="#contact-form" class="btn btn-outline">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                        Get Quote
+                    </a>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Partnership Inquiries</h3>
+                    <p>Interested in becoming a carrier partner or exploring business collaboration opportunities with our logistics network?</p>
+                    <a href="mailto:partnerships@yourcompany.ru" class="btn btn-outline">
+                        <i class="fas fa-handshake"></i>
+                        Partner With Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="Russian Logistics Services" class="logo">
+                    </div>
+                    <p>Professional freight transportation and logistics outsourcing services across the Russian Federation.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="ftl-services.html">FTL Transportation</a></li>
+                        <li><a href="ltl-services.html">LTL Shipping</a></li>
+                        <li><a href="about.html">Logistics Outsourcing</a></li>
+                        <li><a href="contact.html">Freight Brokerage</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +7-XXX-XXX-XXXX</p>
+                        <p><i class="fas fa-envelope"></i> info@yourcompany.ru</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Russia</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Russian Logistics Services. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts/main.js"></script>
+</body>
+</html>
