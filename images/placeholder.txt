@@ -1,0 +1,66 @@
+# Required Images for Russian Logistics Website
+
+## Image Directory Structure
+Place all image files in this `images/` directory.
+
+## Required Image Files:
+
+### Logo & Branding
+- logo.png (Company logo - 200x60px recommended)
+
+### Homepage Images
+- hero-logistics-russia.webp (1920x1080px - Main hero image)
+- hero-logistics-russia.jpg (1920x1080px - Fallback for WebP)
+- hero-logistics-russia-mobile.webp (768x1024px - Mobile hero)
+- hero-logistics-russia-mobile.jpg (768x1024px - Mobile fallback)
+
+### Service Images
+- ftl-truck-illustration.webp (400x300px - FTL service illustration)
+- ftl-truck-illustration.png (400x300px - FTL fallback)
+- ltl-consolidated-cargo.webp (400x300px - LTL service illustration)
+- ltl-consolidated-cargo.png (400x300px - LTL fallback)
+
+### Coverage & Maps
+- russia-coverage-map.webp (800x600px - Coverage map)
+- russia-coverage-map.png (800x600px - Map fallback)
+
+### Icons (80x80px recommended)
+- reliable-transport-icon.webp
+- cost-effective-icon.webp
+- support-24-7-icon.webp
+- experience-icon.webp
+
+### Contact Page Images
+- contact-form-illustration.webp (400x300px)
+- contact-form-illustration.jpg (400x300px - Fallback)
+
+### Social Media Icons (64x64px)
+- whatsapp-icon.webp
+- telegram-icon.webp
+- email-icon.webp
+- phone-icon.webp
+
+### Alternative Hero Images (Optional)
+- hero-warehouse-operations.webp
+- hero-truck-fleet.webp
+- hero-cargo-loading.webp
+
+## Image Requirements:
+- WebP format for main images with JPEG/PNG fallbacks
+- Optimized for web (85-90% quality for photos)
+- Professional appearance with blue color accents
+- Russian logistics context (trucks, warehouses, etc.)
+- High resolution for crisp display on all devices
+
+## Content Guidelines:
+- Modern trucks (preferably Russian brands like KAMAZ, GAZ)
+- Professional warehouse operations
+- Clean, well-maintained vehicles
+- Safety equipment visible
+- Technology integration (tablets, scanners)
+- Russian highways and landscapes
+- Professional team members
+
+## Note:
+These are placeholder requirements. Replace this file with actual optimized images
+following the specifications in the WebP Images Content Guide documentation.
